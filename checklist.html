@@ -94,7 +94,7 @@ button[disabled]{opacity:.6;cursor:wait}
 <script>
 // Cole aqui a URL de produção do webhook do n8n (fluxo "Captura de leads do checklist").
 // Se ficar vazio, a página entrega o PDF normalmente, só não salva o contato.
-const WEBHOOK_URL = '';
+const WEBHOOK_URL = 'https://alves-automacoes.app.n8n.cloud/webhook/lead-checklist';
 
 const f=document.getElementById('f'), b=document.getElementById('b'), e=document.getElementById('e');
 function erro(m){e.textContent=m;e.style.display='block';}
